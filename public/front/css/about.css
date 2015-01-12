@@ -1,0 +1,29 @@
+#arc #arc_left_box{
+	border: 1px solid #ccc;
+	box-shadow:8px 8px 7px rgba(183,178,178,.6);
+	width: 500px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	width: 700px;
+	height:450px;
+
+}
+#table{
+	border-collapse:collapse;
+	width:100%;
+	font-size:14px;
+	font-family: 微软雅黑;
+	color:#555;
+	/*display: none;*/
+}
+#table td{
+	padding:7px;
+}
+#table td.td1{
+	background: #3D97CB;
+	color: #fff;
+}
+#table td.td_first{
+	width: 15%;
+}

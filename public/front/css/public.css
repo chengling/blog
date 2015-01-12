@@ -1,0 +1,20 @@
+
+body,div,a,span,p,input,form,textarea,ul,li,b,h1,h2,dl,dt,dd,img,iframe,em,table,tr,td,th,hr{
+	margin: 0;
+	padding: 0;
+}
+img,iframe{
+	border: none;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	
+}

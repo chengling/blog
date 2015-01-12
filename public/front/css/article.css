@@ -1,0 +1,178 @@
+/*阅读文章*/
+#arc .arc_left_box_read{
+	width:695px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	background:#fff;
+	border: 1px solid #ccc;
+	box-shadow:0 0 8px rgba(183,178,178,.6);
+}
+#arc .arc_left_box_read .arc_show_read{
+	font-size: 20px;
+	color: #3D97CB;
+	margin-top: 10px;
+	font-weight: 700;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	width: 680px;
+}
+#arc .arc_left_read .arc_left_content .arc_read{
+	height: auto;
+	width: 640px;
+	line-height: 27px;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#arc .arc_left_box_read .arc_show_read b{
+	font-size: 12px;
+	color: #555;
+	margin-top: 10px;
+	float: right;
+	font-weight:400;
+	font-style:italic;
+}
+#arc .arc_left_box_read .arc_show_read span{
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+}
+#arc .arc_left_box_read .arc_show_read span.red{
+	color: #f00;
+}
+#arc .arc_left_box_read .arc_show_read h2{
+	float: left;
+	font-weight: 700;
+}
+#arc .arc_left_read .arc_left_date{
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+#arc .arc_left_read .arc_left_date p{
+	width: 40px;
+	height: 40px;
+	background: #3D97CB url("../Images/icon-post-formats.png") no-repeat 2px 2px;
+	border-radius: 4px;
+	float: left;
+}
+#arc .arc_left_read .arc_left_date dl{
+	width: 40px;
+	height: 40px;
+	background: #777777;
+	border-radius: 4px;
+	float: left;
+	margin-left: 2px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 13px; 
+}
+#arc .arc_left_read{
+	width: 700px;
+	float: left;
+	margin-top: 40px;
+
+}
+#arc .arc_left_read .arc_left_content .arc_tittle_read{
+	font-size: 23px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/*阅读文章结束*/
+/*留言区域*/
+#arc .arc_left_box_read #msg_read{
+	float: left;
+	width: 700px;
+	height: auto;
+	margin-top:30px;
+}
+#arc .arc_left_box_read #msg_read p#msg_tittle{
+	font-size: 20px;
+	color: #3D97CB;
+	margin-top: 10px;
+	font-weight: 700;
+	border-bottom: 1px solid #3D97CB;
+}
+#arc .arc_left_box_read #msg_read ul {
+	margin-top:20px;
+}
+#arc .arc_left_box_read #msg_read ul li{
+	padding: 20px 20px;
+	border-bottom: 1px solid #cdcdcd;
+}
+#arc .arc_left_box_read #msg_read ul li b{
+	color: #f00;
+}
+#arc .arc_left_box_read #msg_read ul li span{
+	color:#3D97CB;
+}
+#arc .arc_left_box_read #msg_read ul li p{
+	font-size: 16px;
+	color:#555;
+}
+#arc .arc_left_box_read #msg_read ul li a{
+	font-size: 14px;
+	color: #555;
+	text-decoration: underline;
+}
+#arc .arc_left_box_read #msg_read ul li a:hover{
+	color: #3D97CB;
+	
+}
+/*留言区域结束*/
+/**用户发布留言区域**/
+#arc .arc_left_box_read #send_content{
+	margin-top:20px;
+	float: left;
+	height: auto;
+	width: 700px;
+
+}
+#arc .arc_left_box_read #send_content input{
+	height: 20px;
+}
+#arc .arc_left_box_read #send_content input#sub{
+	background: #3D97CB;
+	width: 83px;
+	height: 31px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+}
+#arc .arc_left_box_read #send_content #contents{
+	width: 700px;
+	height: 257px;
+	resize:none;
+}
+#arc .arc_left_box_read #send_content .table td{
+	padding: 2px;
+}
+/**用户发布留言区域结束**/
+#arc .arc_left_box_read #send_content .table td span{
+	color: red;
+	font-size:16px;
+
+}
+/**验证码**/
+#arc .arc_left_box_read #send_content .table input{
+	height: 25px;
+	font-size:16px;
+	float: left;
+}
+#arc .arc_left_box_read #send_content .table #verify{
+	width: 77px;
+}
+#arc .arc_left_box_read #send_content .table #verify_img{
+	float: left;
+	margin-left: 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="/back/css/public.css" />
+	<script type="text/javascript" src="/back/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/back/js/public.js"></script>	
+</head>
+<body>
+	<table class="table">
+		<tr>
+				<?=$this->flashSession->output();?>
+		</tr>
+		<tr>
+			<td class="th" colspan="10">备份列表</td>
+		</tr>
+		<tr>
+			<td class="tdLittle1">备份文件名</td>
+			<td >时间</td>
+			<td class="tdLittle3">大小</td>
+			<td class="tdLtitle4">操作</td>
+		</tr>
+		<?php foreach($file as $item){?>
+		<tr>
+			<td ><?=$item['file']?></td>
+			<td><?=$item['time']?></td>	
+			<td><?=$item['size']?>kb</td>
+		</tr>
+		<?php }?>
+	</table>
+	<div class="page">
+		<a href="<?=$this->url->get("admin/data/backup");?>">数据库备份</a>
+	</div>
+</body>
+</html>

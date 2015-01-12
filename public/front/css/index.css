@@ -1,0 +1,511 @@
+@import url("./public.css");
+body{
+	position: relative;
+	background:url("../Images/5-13050G33952.gif");
+
+}
+
+#wrapper{
+	width: 100%;
+	height: 5px;
+	background: #3D97CB;
+}
+/********头部******/
+#top{
+	width: 960px;
+	height: 140px;
+	margin: 0 auto;
+	border-bottom: 3px solid #cdcdcd;
+}
+/****头部左侧***/
+#top #top_left{
+	width: 300px;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+	
+#top #top_left p#logo{
+	width: 300px;
+	height: 75px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: url("../Images/logo.png") no-repeat;
+
+}
+#top #top_left span{
+	position: absolute;
+	left: 70px;
+	top: 100px;
+	color: #555;
+}
+/****头部右侧***（导航条）****/
+#top #top_right{
+	float: right;
+	width: 440px;
+	height: 140px;
+	position: relative;
+}
+#top #top_right #bar{
+	width:75px;
+	height: 10px;
+	background: url("../Images/bar.png") no-repeat;
+	position:absolute;
+	left:163px;
+	top: 133px;
+}
+#top #top_right ul {
+	margin-left: 170px;
+	margin-top:-5px;
+}
+#top #top_right ul li{
+	float: left;
+}
+#top #top_right ul li a {
+	float: left;
+	padding: 0 10px;
+	color: #555;
+	font-size: 20px;
+	margin-top: 110px;
+	font-weight: 700;
+}
+#top #top_right ul li a:hover{
+	text-decoration: underline;
+	color: #3D97CB;
+	font-weight:700;
+}
+/********头部结束******/
+/******发布内容区域****/
+#arc{
+	width: 960px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/**发布内容左侧***/
+#arc .arc_left_box{
+	width:695px;
+	float: left;
+	background: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	box-shadow:0 0 8px rgba(183,178,178,.6);
+}
+#arc .arc_left_box .arc_show{
+	font-size: 20px;
+	color: #3D97CB;
+	margin-top: 10px;
+	font-weight: 700;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+#arc .arc_left_box .arc_show b{
+	font-size: 14px;
+	color: #555;
+	margin-top: 10px;
+	float: right;
+}
+#arc .arc_left_box .arc_show span{
+	font-size: 14px;
+	color: #f00;
+	float: right;
+
+}
+#arc .arc_left_box span.arc_category{
+	float: left;
+	margin-left: 100px;
+	margin-top: -25px;
+	
+}
+#arc .arc_left_box span.arc_category a{
+	float: left;
+	margin-left: 10px;
+	font-size:14px;
+	color: #777777;
+}
+#arc .arc_left_box span.arc_category a:hover{
+	color: #3D97CB;
+	text-decoration: underline;
+}
+
+/*轮播图片*/
+#arc .arc_left_box #foucs_photo{
+	width: 705px;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #cdcdcd;
+}
+#arc .arc_left_box #foucs_photo .foucs_photo_l{
+	width: 690px;
+	height: 330px;
+	float: left;
+	position: relative;
+
+}
+#arc .arc_left_box #foucs_photo .foucs_photo_l img{
+	position: absolute;
+	left: 2px;
+	top: 0px;
+	width: 690px;
+	box-shadow:0 0 15px rgba(183,178,178,.6);
+}
+
+
+/*轮播图片结束*/
+#arc .arc_left{
+	width: 700px;
+	height: 340px;
+	float: left;
+	border-bottom:1px solid #cdcdcd;
+}
+#arc .arc_left.hover{
+	background: #F5F5F5;
+}
+/*发布内容左侧日期*/
+#arc .arc_left .arc_left_date{
+	float: right;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+#arc .arc_left .arc_left_date p{
+	width: 40px;
+	height: 40px;
+	background: #3D97CB url("../Images/icon-post-formats.png") no-repeat 2px 2px;
+	border-radius: 4px;
+	float: left;
+
+}
+
+#arc .arc_left .arc_left_date dl{
+	width: 40px;
+	height: 40px;
+	background: #777777;
+	border-radius: 4px;
+	float: left;
+	margin-left: 2px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 13px; 
+}
+/*发布内容左侧日期结束*/
+
+#arc .arc_left .arc_left_content{
+	float: left;
+	width: 519px;
+	height: 340px;
+	position:relative;
+}
+#arc .arc_left .arc_left_content span{
+	float: left;
+	margin-top: 32px;
+	margin-left: 340px;
+	color: #3D97CB;
+
+}
+#arc .arc_left .arc_left_content .arc_tittle{
+	font-size: 23px;
+	color: #555;
+	position:absolute;
+	left: 10px;
+	top: 20px;
+	width: 590px;
+	overflow: hidden;
+
+}
+#arc .arc_left .arc_left_content .arc_tittle:hover{
+	color: #3D97CB;
+}
+#arc .arc_left .arc_left_content img{
+	width: 300px;
+	height: 210px;
+	position: absolute;
+	left: 0px;
+	top: 80px;
+}
+#arc .arc_left .arc_left_content .arc_des{
+	height: auto;
+	width: 280px;
+	position: absolute;
+	left: 320px;
+	top: 90px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#arc .arc_left .arc_left_content a.arc_more{
+	position:absolute;
+	left: 320px;
+	top: 276px;
+	color: #3D97CB;
+	font-size: 12px;
+}
+#arc .arc_left .arc_left_content a.arc_more:hover{
+	color: #555;
+}
+/*留言区域*/
+#arc .arc_left_box #msg{
+	float: left;
+	width: 700px;
+	height: auto;
+	margin-top:30px;
+}
+#arc .arc_left_box #msg p#msg_tittle{
+	font-size: 20px;
+	color: #3D97CB;
+	margin-top: 10px;
+	font-weight: 700;
+	border-bottom: 1px solid #3D97CB;
+}
+#arc .arc_left_box #msg ul {
+	margin-top:20px;
+}
+#arc .arc_left_box #msg ul li{
+	padding: 20px 20px;
+	border-bottom: 1px solid #cdcdcd;
+}
+#arc .arc_left_box #msg ul li b{
+	color: #f00;
+}
+#arc .arc_left_box #msg ul li span{
+	color:#3D97CB;
+}
+#arc .arc_left_box #msg ul li p{
+	font-size: 16px;
+	color:#555;
+}
+#arc .arc_left_box #msg ul li a{
+	font-size: 14px;
+	color: #555;
+	text-decoration: underline;
+}
+#arc .arc_left_box #msg ul li a:hover{
+	color: #3D97CB;
+	
+}
+/*留言区域结束*/
+/**用户发布留言区域**/
+#arc .arc_left_box #send_content{
+	margin-top:20px;
+	float: left;
+	height: auto;
+	width: 700px;
+
+}
+#arc .arc_left_box #send_content input{
+	height: 20px;
+}
+#arc .arc_left_box #send_content input#sub{
+	background: #3D97CB;
+	width: 83px;
+	height: 31px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	float: right;
+}
+#arc .arc_left_box #send_content #contents{
+	width: 700px;
+	height: 257px;
+	resize:none;
+}
+#arc .arc_left_box #send_content .table td{
+	padding: 2px;
+}
+
+/**用户发布留言区域结束**/
+/**发布内容左侧结束***/
+
+/****发布内容右侧***/
+#arc .arc_right_box{
+	width: 200px;
+	height: auto;
+	float: right;
+	overflow: hidden;
+	/*border: 1px solid #f00;*/
+}
+#arc .arc_right_box .right_little_box .right_tittle{
+	margin:10px auto 0px;
+	width: 200px;
+	padding:10px 0px;
+	font-size: 14px;
+	color:#555555;
+	border-bottom:2px dotted #cdcdcd;
+	font-weight: 700;
+}
+#arc .arc_right_box .right_little_box #logo_img{
+	margin-top: 10px;
+	/*border:1px solid #f00*/
+}
+#arc .arc_right_box .right_little_box .right_des{
+	margin-top: 30px;
+
+}
+#arc .arc_right_box .right_little_box .right_des li{
+	margin:10px auto;
+	width:200px;
+	word-wrap:break-word;
+	line-height: 20px;
+	color: #555;
+
+}
+#arc .arc_right_box .right_little_box{
+	border-bottom: 1px solid #cdcdcd;
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	position: relative;
+}
+/****发布内容右侧(最新文章区域)***/
+/*#arc .arc_right_box .right_arc_little_box .hot_arc .arc_js_move*/
+
+#arc .arc_right_box .right_arc_little_box{
+	border-bottom: 1px solid #cdcdcd;
+	width: 200px;
+	height: 140px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+#arc .arc_right_box .right_arc_little_box .hot_arc{
+	width: 200px;
+	height: 75px;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+}
+#arc .arc_right_box .right_arc_little_box .hot_arc .arc_js_move{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#arc .arc_right_box .right_arc_little_box .right_tittle{
+	margin:10px auto 0px;
+	width: 200px;
+	padding:10px 0px;
+	font-size: 14px;
+	color:#555555;
+	border-bottom:2px dotted #cdcdcd;
+	font-weight: 700;
+}
+
+#arc .arc_right_box .right_arc_little_box .hot_arc .right_roll a{
+	display: block;
+	padding-left: 23px;
+	color: #555;
+	background: url("../Images/comments.png") no-repeat;
+	line-height: 25px;
+	width: 200px;
+	overflow: hidden;
+}
+#arc .arc_right_box .right_arc_little_box .hot_arc .right_roll a:hover{
+	text-decoration: underline;
+	color: #3D97CB;
+}
+
+/***发布内容最新回复 ***/
+#arc .arc_right_box .right_little_box .right_answer li{
+	margin:10px auto;
+	width:200px;
+	word-wrap:break-word;
+	line-height: 20px;
+	color: #555;
+}
+#arc .arc_right_box .right_little_box .right_answer li a{
+	padding-left: 23px;
+	color: #555;
+	background: url("../Images/listen.png") no-repeat;
+	line-height: 18px;
+}
+/*栏目列表*/
+#arc .arc_right_box .right_little_box .right_category li{
+	margin:10px auto;
+	width:200px;
+	word-wrap:break-word;
+	line-height: 20px;
+	color: #555;
+}
+#arc .arc_right_box .right_little_box .right_category li a{
+	padding-left: 23px;
+	color: #555;
+	background: url("../Images/maximize.png") no-repeat;
+	line-height: 18px;
+}
+#arc .arc_right_box .right_little_box .right_category li.category a{
+	color:red;
+}
+#arc .arc_right_box .right_little_box .right_category li.category{
+	
+}
+/*栏目列表结束*/
+#arc .arc_right_box .right_little_box .right_answer li a:hover{
+	text-decoration: underline;
+	color: #3D97CB;
+}
+#arc .arc_right_box .right_arc_little_box .hot_arc .right_roll .hot_red a{
+	color:red;
+}
+/****网站统计*****/
+#arc .arc_right_box .count_bg li{
+	text-indent: 2em;
+	background: url("../images/arrow_next.png") no-repeat 0px 3px;
+}
+
+/****网站统计结束****/
+/***最新回复结束 ***/
+/****右侧(热门文章区域结束)***/
+/****右侧结束***/
+/*****发布内容区结束*****/
+
+/********底部*****/
+#foot_box{
+	width: 100%;
+	height:53px;
+	background: #3D97CB;
+	margin-top: 20px;
+}
+#foot_box #foot{
+	width: 960px;
+	margin:0 auto;
+	position: relative;
+}
+#foot_box #foot p#foot_l{
+	color: #fff;
+	position: absolute;
+	left: 314px;
+	top: 20px;
+}
+/********底部结束*****/
+/**页码**/
+.page{
+	width: 700px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+.page a {
+	padding: 5px 8px;
+	border: 1px solid #ccc;
+	color: #000;
+	margin-left: 5px;
+}
+.page strong{
+	padding: 5px 8px;
+	color: #fff;
+	border: 1px solid #ccc;
+	background: #3D97CB;
+	margin-left: 5px;
+}
+.page span{
+	margin-left: 5px;
+}

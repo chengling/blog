@@ -1,0 +1,53 @@
+
+.arc_left_box_list {
+	width:695px;
+	height: 1009px;
+	float: left;
+	background: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	box-shadow:0 0 8px rgba(183,178,178,.6);
+}
+.arc_left_box_list .arcticle_list{
+	margin-top:20px;
+}
+.arc_left_box_list .arcticle_list li{
+	color: #555;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: 1px dotted #ccc;
+	/*border: 1px solid #f00;*/
+	display: block;
+	width: 670px;
+	height: 30px;
+}	
+.arc_left_box_list .arcticle_list li a{
+	color: #555;
+	line-height: 30px;
+	font-size: 14px;
+	float: left;
+}
+
+.arc_left_box_list .arcticle_list li a:hover{
+	color: #3D97CB;
+}
+.arc_left_box_list .arcticle_list li em{
+	float: right;
+	color: #888;
+}
+
+.arc_left_box_list .arcticle_list .category{
+	font-size: 20px;
+	color: #3D97CB;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.arc_left_box_list .arcticle_list .hot{
+	color: red;
+}
+.arc_left_box_list .arcticle_list li a.istop{
+	color: #f00;
+}
